@@ -1,4 +1,4 @@
-uuid: 7d9502cf-79cf-49e4-b71a-0bb57aee2bc3
+uuid: 96050597-3fd5-40d6-a427-a66cbdc7126d
 langcode: en
 status: true
 dependencies:
@@ -7,7 +7,7 @@ dependencies:
   module:
     - ckeditor
 _core:
-  default_config_hash: AqlPmO16LvJI4D0Ih6u4GFQIzqr5OnLgAUSjcUGWk2g
+  default_config_hash: kkdI_XAGhiSqJaCidNRy8-rNEs7xYVQWwReS2g7-djY
 format: basic_html
 editor: ckeditor
 settings:
@@ -19,10 +19,12 @@ settings:
           items:
             - Bold
             - Italic
+            - Outdent
+            - Indent
         -
           name: Linking
           items:
-            - DrupalLink
+            - Linkit
             - DrupalUnlink
         -
           name: Lists
@@ -33,7 +35,7 @@ settings:
           name: Media
           items:
             - Blockquote
-            - DrupalImage
+            - media_entity_embed
         -
           name: 'Block Formatting'
           items:
@@ -42,14 +44,22 @@ settings:
           name: Tools
           items:
             - Source
+            - RemoveFormat
+            - PasteFromWord
+            - ShowBlocks
+            - Maximize
   plugins:
     stylescombo:
       styles: ''
+    language:
+      language_list: un
+    linkit:
+      linkit_profile: default
 image_upload:
   status: true
   scheme: public
   directory: inline-images
   max_size: ''
   max_dimensions:
-    width: 0
-    height: 0
+    width: null
+    height: null

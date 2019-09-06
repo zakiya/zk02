@@ -1,0 +1,25 @@
+uuid: 21f74d02-1d29-4045-b3d5-c2b7d8c545f8
+langcode: en
+status: false
+dependencies: {  }
+_core:
+  default_config_hash: hmxcPDoB0F4JtlDtNQ1cpB1wi37zYX-Qz4v70kr6i64
+id: local
+label: Local
+description: ''
+folder: ../config-local
+module:
+  devel: 0
+  log_stdout: 0
+  stage_file_proxy: 0
+theme: {  }
+blacklist:
+  - devel.settings
+  - devel.toolbar.settings
+graylist:
+  - system.file
+  - 'xmlsitemap.xmlsitemap.*'
+  - 'webform.webform.*'
+graylist_dependents: false
+graylist_skip_equal: true
+weight: 0

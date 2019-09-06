@@ -1,0 +1,16 @@
+uuid: 218432ec-32e8-4a36-b96a-07d187d56946
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+_core:
+  default_config_hash: mNSGp0i5Aso2uWWosiY6bCH923cthu_Yla3s8ZSkEjI
+id: media_default
+label: 'Media Default'
+type: 'canonical_entities:media'
+pattern: '[media:bundle]/[media:name]'
+selection_criteria: {  }
+selection_logic: and
+weight: 0
+relationships: {  }

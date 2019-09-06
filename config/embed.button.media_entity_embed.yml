@@ -1,0 +1,22 @@
+uuid: e1cd79b1-c109-42cd-9f2a-d4746772d734
+langcode: en
+status: true
+dependencies:
+  config:
+    - entity_browser.browser.media_entity_browser_wysiwyg
+  module:
+    - entity_embed
+    - media
+_core:
+  default_config_hash: 4AJoAXbP9BpsefLcB33hFzNS5dXBGwAu36FFnFq_Cdk
+label: 'Media Entity Embed'
+id: media_entity_embed
+type_id: entity
+type_settings:
+  entity_type: media
+  bundles: {  }
+  display_plugins: {  }
+  entity_browser: media_entity_browser_wysiwyg
+  entity_browser_settings:
+    display_review: true
+icon_uuid: null

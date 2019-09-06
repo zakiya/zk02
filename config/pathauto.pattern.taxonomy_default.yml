@@ -1,0 +1,16 @@
+uuid: ac3b9999-5490-4089-9620-45a6c0f9de20
+langcode: en
+status: true
+dependencies:
+  module:
+    - taxonomy
+_core:
+  default_config_hash: 1BZVR_WsXVFfU_aCf-j4laYDtcoPn96cTAEb_Or_7Qo
+id: taxonomy_default
+label: 'Taxonomy Default'
+type: 'canonical_entities:taxonomy_term'
+pattern: '[term:vocabulary]/[term:name]'
+selection_criteria: {  }
+selection_logic: and
+weight: 0
+relationships: {  }
