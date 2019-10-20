@@ -261,5 +261,5 @@ workflows:
 #             branches:
 #              only:
 #                - master
-    jobs:
-      - composer_lock_updater
+#    jobs:
+#      - composer_lock_updater
